@@ -1,0 +1,12 @@
+# Ignore system folder CI3
+/system/
+
+# Ignore cache & log
+/application/cache/*
+/application/logs/*
+
+# Ignore uploads (jika tidak ingin di-push)
+/assets/uploads/*
+
+# Ignore environment files
+.env
